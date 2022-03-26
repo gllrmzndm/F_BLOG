@@ -1,4 +1,4 @@
-$(document).ready(function() {
+$(document).ready(function () {
   'use strict';
 
   var headerOverlay = $(".header__overlay"),
@@ -12,7 +12,7 @@ $(document).ready(function() {
   /* =======================
   // Menu and Search
   ======================= */
-  menuOpenIcon.click(function() {
+  menuOpenIcon.click(function () {
     menuOpen();
   })
 
@@ -73,7 +73,7 @@ $(document).ready(function() {
     limit: 6,
     resolution: 'standard_resolution',
     userId: '8987997106',
-    accessToken: '8987997106.924f677.8555ecbd52584f41b9b22ec1a16dafb9',
+    accessToken: '',
     template:
       '<li class="instagram-item"><a href="{{link}}" aria-label="{{caption}}" target="_blank"><img src="{{image}}" alt="{{caption}}"></a></li>'
   });
@@ -85,12 +85,12 @@ $(document).ready(function() {
   /* =======================
   // Scroll Top Button
   ======================= */
-  $(".top").click(function() {
+  $(".top").click(function () {
     $("html, body")
       .stop()
       .animate({ scrollTop: 0 }, "slow", "swing");
   });
-  $(window).scroll(function() {
+  $(window).scroll(function () {
     if ($(this).scrollTop() > $(window).height()) {
       $(".top").addClass("is-active");
     } else {
