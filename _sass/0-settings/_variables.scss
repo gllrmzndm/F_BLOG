@@ -42,7 +42,8 @@ $button-background-color: $brand-color;
 // Border
 $border-color: $light-gray;
 
-@import url('http://fonts.cdnfonts.com/css/samsung-sharp-sans');
+//github pages special treatment....
+@import url('//fonts.cdnfonts.com/css/samsung-sharp-sans');
 
 // *****************
 // Typography
