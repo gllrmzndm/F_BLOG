@@ -1,7 +1,27 @@
 .hero {
   padding: 80px 0;
   margin-bottom: 80px;
-  background: #111222;
+  background: #1220da;
+  animation-name: fade;
+
+  animation-direction: normal;
+  animation-duration: 10s;
+  animation-fill-mode: none;
+  animation-iteration-count: infinite;
+  animation-delay: 0s;
+  animation-timing-function: ease-in-out;
+
+  @keyframes fade {
+    0% {
+      background-color: #080a1f;
+    }
+    25% {
+      background-color: #192241;
+    }
+    100% {
+      background-color: #080a1f;
+    }
+  }
 
   .last-item {
     display: flex;
@@ -63,6 +83,8 @@
     }
   }
 
+  
+
   @media only screen and (max-width: $tablet) {
     margin-bottom: 40px;
 
@@ -91,7 +113,7 @@
 
     .hero__image {
       img {
-        box-shadow: 0 1px 4px rgba(0,0,0,0.15);
+        box-shadow: 0 1px 4px #00000026;
         max-width: 100%;
       }
     }
