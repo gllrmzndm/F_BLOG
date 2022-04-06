@@ -2,7 +2,7 @@
 layout: post
 title:  Fiat 500 my favourite car
 date:   2022-03-05 15:01:35 +0300
-image:  f500.gif
+image:  fiat500lux2.gif
 tags:   My car
 ---
 hahahahahahaah
@@ -53,7 +53,7 @@ Eeeee! Now say "nuclear wessels"! Why did you bring us here? Yeah, and if you we
 
 
 <iframe width="420" height="315" src="https://www.youtube.com/embed/M05jqMFF2jc" frameborder="0" allowfullscreen></iframe>
-
-<video width="760" muted autoplay loop preload="auto">
+<!-- //width="760" -->
+<video width="100%" muted autoplay loop preload="auto">
  <source src="https://www.alfaromeo.com/NS_Video_Content_AR/COM/Alfa_NLE_giulia_grigia_15sec_16-9%20-%20NO%20PROMO%20WEB_3.mp4" type="video/mp4">
 </video>
