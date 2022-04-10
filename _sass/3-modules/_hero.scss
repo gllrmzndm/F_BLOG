@@ -1,27 +1,28 @@
 .hero {
   padding: 80px 0;
   margin-bottom: 80px;
-  background: #1220da;
-  animation-name: fade;
+  background: url(/images/f_intro.gif);
+  // animation-name: fade;
+  // z-index: 0;
 
-  animation-direction: normal;
-  animation-duration: 10s;
-  animation-fill-mode: none;
-  animation-iteration-count: infinite;
-  animation-delay: 0s;
-  animation-timing-function: ease-in-out;
+  // animation-direction: normal;
+  // animation-duration: 10s;
+  // animation-fill-mode: none;
+  // animation-iteration-count: infinite;
+  // animation-delay: 0s;
+  // animation-timing-function: ease-in-out;
 
-  @keyframes fade {
-    0% {
-      background-color: #080a1f;
-    }
-    25% {
-      background-color: #192241;
-    }
-    100% {
-      background-color: #080a1f;
-    }
-  }
+  // @keyframes fade {
+  //   0% {
+  //     background-color: #080a1f;
+  //   }
+  //   25% {
+  //     background-color: #192241;
+  //   }
+  //   100% {
+  //     background-color: #080a1f;
+  //   }
+  // }
 
   .last-item {
     display: flex;
@@ -30,14 +31,15 @@
   .hero__content {
     color:white;
   }
-  
+
   .hero__content {
     display: flex;
     flex-direction: column;
     justify-content: center;
     width: 100%;
     padding: 0 40px 0 0;
-    
+    z-index: 2;
+
     .hero__title {
       font-size: 38px;
       font-weight: normal;
@@ -69,6 +71,7 @@
     img {
       box-shadow: 0 1px 4px rgba(0,0,0,0.15);
       max-width: 70%;
+      border-radius: 50%;
     }
   }
 
@@ -83,7 +86,7 @@
     }
   }
 
-  
+
 
   @media only screen and (max-width: $tablet) {
     margin-bottom: 40px;
@@ -101,7 +104,7 @@
 
     .hero__image {
       margin-bottom: 20px;
-      
+
       img {
         box-shadow: none;
       }
